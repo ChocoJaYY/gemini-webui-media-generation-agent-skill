@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://fonts.gstatic.com/s/i/productlogos/gemini/v8/web-48dp/logo_gemini_color_1x_web_48dp.png" alt="Gemini Logo" width="64" height="64">
+  <img src="https://assets.chocojayy.me/hermesemini_Generated_Image_4iv2zl4iv2zl4iv2.avif" alt="Logo" width="1920" height="600">
 </p>
 
-<h1 align="center">Gemini Web Controller</h1>
+<h1 align="center">Gemini WebUI Controller Skill For Hermes Agent / Openclaw</h1>
 
 <p align="center">
   <strong>A Hermes Agent Skill for full browser automation of Google Gemini</strong>
@@ -23,7 +23,7 @@
 
 ## What is this?
 
-**Gemini Web Controller** is a [Hermes Agent](https://github.com/NousResearch/hermes-agent) Skill that gives your AI agent complete control over the [Google Gemini](https://gemini.google.com/app) web interface through browser automation.
+**Gemini Web Controller** is a [Hermes Agent](https://github.com/NousResearch/hermes-agent) Skill that gives your AI agent complete control over the [Google Gemini](https://gemini.google.com/app) web interface through browser automation. Exclusively for people who dont like to pay for API and leverage the use of Google AI Plus, Pto and Ultra.  
 
 Point your agent at a creative task — generate images, create videos, compose music, or run deep research — and this skill handles the entire workflow: model selection, tool activation, style picking, prompt entry, waiting for generation, downloading the media, and sharing it back via a temporary URL.
 
