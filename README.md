@@ -160,15 +160,15 @@ User Request
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/gemini-control-skill.git
+git clone https://github.com/ChocoJaYY/gemini-webui-media-generation-agent-skill.git
 
 # Copy to Hermes skills directory
-cp -r gemini-control-skill ~/.hermes/skills/browser-automation/gemini-control
+cp -r gemini-webui-media-generation-agent-skill ~/.hermes/skills/browser-automation/gemini-control
 ```
 
 Or install directly via Hermes CLI:
 ```bash
-hermes skills install ./gemini-control-skill
+hermes skills install ./gemini-webui-media-generation-agent-skill
 ```
 
 ### Manual Setup
@@ -176,7 +176,7 @@ hermes skills install ./gemini-control-skill
 1. Clone this repository
 2. Ensure Python 3.10+ is installed (for the download helper script)
 3. Ensure `curl` is available in PATH (used for file uploads)
-4. Make sure you're **logged into Google** in the browser that your agent controls
+4. Make sure you're **logged into Google** in the browser that your agent controls (Running browser windows in noVNC(Configure Yourself or tell your agent to do it for you) Default running in Headless mode which will not work this method.)
 
 ---
 
@@ -218,7 +218,7 @@ python scripts/download_and_share.py --newest
 |----------|--------|-------------|:------------:|
 | **Fast** | Nano Banana 2 | Quick image gen, short music (~30s), general chat | ✅ |
 | **Thinking** | Nano Banana Pro | High-quality images, video (required), long music (~3min) | ✅ |
-| **Pro** | Gemini 2.0 Pro | Advanced math & code | ❌ (premium) |
+| **Pro** | Gemini 3.1 Pro | Advanced math & code | ❌ (premium) |
 
 ### Auto-Selection Rules
 
@@ -379,7 +379,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <sub>Built with ❤️ for the Hermes Agent ecosystem</sub>
+  <sub>Built By ChocoJaYY with ❤️ for the Hermes Agent ecosystem</sub>
   <br>
   <sub>Follows the <a href="https://agentskills.io">agentskills.io</a> open standard</sub>
 </p>
